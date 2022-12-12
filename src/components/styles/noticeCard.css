@@ -1,0 +1,12 @@
+.notice-container{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+  }
