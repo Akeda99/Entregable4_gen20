@@ -22,8 +22,11 @@ const [notice, setNotice] = useState(false)
 
   return (
     <div className="App">
-     <h1>Users</h1>
-     <button onClick={()=>setCloseform(false)} className='App_btn'>Open Form</button>
+      <div className="title">
+<h1 >Users</h1>
+     <button onClick={()=>setCloseform(false)} className='App_btn'>Create User</button>
+      </div>
+     
      <div className={`form-container ${closeform && 'close_form'}`}>
      <FormUser 
      createNewUser={createNewUser}

@@ -17,7 +17,7 @@ setCloseform(false)
               <span className='card_span'>Correo:</span>
               {user.email}</li>
             <li className='card_item'>
-              <span className='card_span'>Cumpleanios:</span>
+              <span className='card_span'>Cumpleaños:</span>
               {user.birthday}</li>
         </ul>
         <footer className='card_footer'>
